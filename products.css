@@ -1,0 +1,14 @@
+
+
+.resize { 
+    width: 100%;
+    border: 3px solid black;
+    height: 300px;
+    display: inline-block;
+}
+
+#productCards {
+	width: auto;
+	display: inline-block;
+    clear: both;
+}
