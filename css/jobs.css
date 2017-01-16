@@ -1,0 +1,30 @@
+
+
+body {
+  background-color: #56D992;
+  font-family: 'Bungee', cursive;
+  font-family: 'Rubik', sans-serif;
+  color: #143322;
+
+}
+
+div#main {
+  margin: 0 auto;
+  text-align: left;
+  width: 50%;
+}
+
+h2 {
+  color: #143322;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input#submit-button {
+  font-size: 15px;
+  background-color: #97D9B5;
+  border: 2px solid white;
+  border-radius: 5px;
+}
