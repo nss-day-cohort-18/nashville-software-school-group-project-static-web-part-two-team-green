@@ -1,4 +1,4 @@
-
+/******Product Cards**********/
 
 .resize { 
     max-width: 8em;
@@ -7,11 +7,27 @@
     min-height: 8em;
     display: inline-block;
     border: 1em solid black;
-    margin: ;
+    margin: 0 2em;
 }
 
-#productCards {
+#cards {
 	width: auto;
 	display: inline-block;
     clear: both;
+    border: 3px solid red;
+    border-radius: 10%;
+    margin: 1.5em 2.5em 1.5em 2.6em;
+}
+
+#productCards {
+	width: 100%;
+	display: table;
+}
+
+p#money {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
 }
