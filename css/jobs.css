@@ -1,17 +1,21 @@
-
-
-body {
+body#jobs {
   background-color: #56D992;
   font-family: 'Bungee', cursive;
   font-family: 'Rubik', sans-serif;
   color: #143322;
-
 }
 
 div#main {
   margin: 0 auto;
   text-align: left;
   width: 50%;
+}
+
+.head-with-background {
+  background-image: url("images/jobs-background-image.jpg");
+  backgrounds-blend-mode: screen;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 h2 {
