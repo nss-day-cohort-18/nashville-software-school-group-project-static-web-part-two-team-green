@@ -1,10 +1,13 @@
 
 
 .resize { 
-    width: 100%;
-    border: 3px solid black;
-    height: 300px;
+    max-width: 8em;
+    min-width: 8em;
+    max-height: 8em;
+    min-height: 8em;
     display: inline-block;
+    border: 1em solid black;
+    margin: ;
 }
 
 #productCards {
