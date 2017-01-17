@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  background-color: #378C5E;
+  background: url(../images/about-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  background: url(images/about-background.jpg);
+  color: white;
+  font-family: 'Bungee', cursive;
+}
+
+.art-1-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-1-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 50%;
+  background: url(../images/linedpaper.jpg);
+  text-align: justify;
+  font-family: 'Bungee', cursive;
+  font-size: .9em;
+  padding: 1.8em 3em 0 8em;
+}
+
+.section-1-container h2 {
+  text-align: center;
+  padding-right: 2.5em;
+}
