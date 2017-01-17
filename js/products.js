@@ -28,7 +28,7 @@ for (var key in recycle) {
     console.log(poster, title, price);
 	
 
-    var card = "<section id='cards'>" + "<h4>" + title + "</h4>" + "<div><img class='resize' src='" + poster + "'></div>" + "<footer><p id='money'>" + price + "<br>" + descr + "</p></footer></article>";
+    var card = "<section id='cards'>" + "<h4>" + title + "</h4>" + "<div><img class='resizeCard' src='" + poster + "'></div>" + "<footer><p id='money'>" + price + "<br>" + descr + "</p></footer></article>";
 
     productSection.innerHTML += card;
 

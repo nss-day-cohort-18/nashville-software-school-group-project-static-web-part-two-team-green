@@ -46,6 +46,7 @@ h3.job-title {
 a.jobs-links:hover {
   background-color: #143322;
   color: white;
+  padding: 1em;
 }
 
 p.job-description {
