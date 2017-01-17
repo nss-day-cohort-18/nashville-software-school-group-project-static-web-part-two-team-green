@@ -8,7 +8,9 @@
   <link rel="stylesheet" type="text/css" href="css/jobs.css">
   <link href="https://fonts.googleapis.com/css?family=Bungee|Rubik" rel="stylesheet">
 </head>
+
 <body id="jobs">
+
   <header>
     <nav class="nav-container">
       <ul>
@@ -20,16 +22,20 @@
     </nav>
   </header>
 
-  <section class="head-with-background">
-    <div class="heading-text">
+  <div id="parent">
+
+    <section class="heading-text">
       <h1>Jobs</h1>
       <h2>Join Team Green!</h2>
-    </div>
-  </section>
+    </section>
 
-  <div id="main">
-
-    <h2 class="main-jobs-headings">Jobs</h2>
+    <article class="job-listing">
+      <h3 class="job-title">job title</h3>
+      <p class="job-description">
+      job description
+      </p>
+      <input type="submit" value="Apply Now!" class="apply-button">
+    </article>
 
     <ul>
       <li><a href="http://recyclingjobs.com/project-manager-i/" class="jobs-links">Project Manager</a></li>
@@ -37,31 +43,7 @@
       <li><a href="http://recyclingjobs.com/environmental-planner-6/" class="jobs-links">Environmental Planner</a></li>
     </ul>
 
-    <h2 class="jobs-headings">Interested? Contact Us!</h2>
 
-    <form>
-      <h3>Your Contact Info</h3>
-      First Name:
-      <input type="text" name="firstName" size="25" maxlength="40">
-      <br>
-      Last Name:
-      <input type="text" name="lastName" size="25" maxlength="40">
-      <br>
-      Email:
-      <input type="email" name="email" size="35" maxlength="40">
-      <br>
-      Phone:
-      <input type="tel" name="phone" size="15" maxlength="20">
-      <br>
-      LinkedIn URL:
-      <input type="url" name="linkedIn" size="35" maxlength="80">
-      <h3>What Else Should We Know?</h3>
-      <br>
-      <textarea name="comments" rows="10" cols="60"></textarea>
-      <br><br>
-      <input type="submit" value="Apply Now!" id="submit-button">
-      <br>
-    </form>
 
   </div>
 

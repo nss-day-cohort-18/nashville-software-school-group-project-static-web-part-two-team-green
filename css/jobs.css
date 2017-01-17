@@ -1,33 +1,46 @@
 body#jobs {
-  /*background-color: #56D992;*/
   font-family: 'Bungee', cursive;
   font-family: 'Rubik', sans-serif;
   color: #143322;
   width: 100%;
 }
 
-div#main {
+div#parent {
   margin: 0 auto;
-  text-align: left;
-  width: 50%;
+  text-align: center;
+  /*width: 50%;*/
   font-family: 'Rubik', sans-serif;
-}
-
-.head-with-background {
-  background-image: url("../images/greenglassbackground.jpg");
+  background-image: url("../images/greenglassbackground-jobs-copy.jpg");
   background-repeat: no-repeat;
-  height: 200px;
-  width: 100%;
-  padding: 2em;
+  /*height: 200px;*/
+  width: 90%;
+  /*padding: 2em;*/
 }
 
-.heading-text {
+section.heading-text {
   font-family: 'Bungee', cursive;
   color: white;
   text-align: center;
-  width: 20%;
-  margin: 0 auto;
-  padding: 2em;
+}
+
+article.job-listing {
+
+}
+
+h3.job-title {
+
+}
+
+p.job-description {
+
+}
+
+input.apply-button {
+  font-size: 15px;
+  background-color:
+  color:
+  border:
+  border-radius: 5px;
 }
 
 ul {
@@ -37,12 +50,4 @@ ul {
 a.jobs-links:hover {
   background-color: #143322;
   color: white;
-}
-
-input#submit-button {
-  font-size: 15px;
-  background-color: #143322;
-  color: white;
-  border: 2px solid white;
-  border-radius: 5px;
 }
