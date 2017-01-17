@@ -38,7 +38,12 @@ h3 {
 }
 #greenChild {
 	align-self: flex-end;
+	color: #378C5E;
+}
+#greenChild:hover {
 	color: #23593C;
+	font-size: 3.4em;
+	font-weight: bold;
 }
 
 #middleChild {
