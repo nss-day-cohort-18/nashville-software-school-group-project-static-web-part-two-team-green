@@ -2,9 +2,17 @@ body#jobs {
   font-family: 'Bungee', cursive;
   font-family: 'Rubik', sans-serif;
   color: #143322;
-  width: 100%;
-  background-image: url("../images/greenglassbackground-jobs-copy.jpg");
-  background-repeat: no-repeat;
+  /*/*width: 100%;*/
+  /*background-image: url("../images/jobs-background.jpg");*/
+  /*background-repeat: no-repeat;*/*/
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  background: url(../images/jobs-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 section#heading-text {
