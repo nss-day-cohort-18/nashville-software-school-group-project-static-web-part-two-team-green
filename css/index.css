@@ -7,7 +7,7 @@
 h1 {
 	font-family: 'Bungee', cursive;
 	text-align: center;
-	margin-top: 3em;
+	margin-top: 1.6em;
 	margin-bottom: -3em;
 	position: relative;
 	z-index: 1;
@@ -20,6 +20,7 @@ h3 {
 	font-family: 'Rubik', sans-serif;
 }
 #greenGlass {
+	border-top: .5em solid #fff;
 	max-width:100%;
 	min-width: 100%;
 	max-height: 20em;
@@ -30,8 +31,9 @@ h3 {
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: flex-start;
+	border-top: .5em solid #fff;
 	background-color: #97D9B5;
-	min-height: 10em;
+	min-height: 9em;
 	color: #000;
 }
 #greenChild {
