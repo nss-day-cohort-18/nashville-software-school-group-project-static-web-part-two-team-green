@@ -1,5 +1,6 @@
 body {
 	background-color: #6F9F85;
+    margin:0;
 }
 
 h3 {
@@ -12,7 +13,7 @@ h3 {
 
 /******Product Cards**********/
 
-.resize { 
+.resizeCard { 
     max-width: 8em;
     min-width: 8em;
     max-height: 8em;

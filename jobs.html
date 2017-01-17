@@ -5,6 +5,7 @@
   <title img src="images/recycle-icon.png">Jobs</title>
   <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" type="text/css" href="css/jobs.css">
   <link href="https://fonts.googleapis.com/css?family=Bungee|Rubik" rel="stylesheet">
 </head>
@@ -12,14 +13,14 @@
 <body id="jobs">
 
   <header>
-    <nav class="nav-container">
-      <ul>
-        <li><a href="index.html" class="selected">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="jobs.html">Jobs</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul class="nav-container">
+          <li class="indexLink"><a href="index.html" class="selected" id="compName">The Green Company</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+        </ul>
+      </nav>
   </header>
 
   <section id="heading-text">
@@ -59,17 +60,26 @@
   </div>
 
   <footer class="footer-container">
-    <div class="social-links">
-      <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter">
-      <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook">
-      <a href="mailto:greenteam@greenteam.com"><img src="images/mail.png" alt="email">
-      <a href="tel:000-000-0000"><img src="images/phone.png" alt="call us">
-    </div>
-    <div class="copyright">
-      <p>All rights reserved to the <a href="index.html">Green Team</a>.</p>
-      <a href="#top">Back to top &raquo;</a>
-    </div>
-  </footer>
-
+      <div class="social-links-container">
+        <ul class="icon-list">
+          <li class="icons-list-item">
+            <a href="https://facebook.com" target="_blank" title="Send us a message on Facebook"><img src="images/icons/gt-facebook-icon.png" class="resize" alt="facebook icon" />Facebook</a>
+          </li>
+          <li class="icons-list-item">
+            <a href="https://twitter.com" target="_blank" title="Send us a tweet!"><img src="images/icons/gt-twitter-icon.png" class="resize" alt="twitter icon" />Twitter</a>
+          </li>
+          <li class="icons-list-item">
+            <a href="mailto:teamgreen@teamgreen.com" title="Shoot us an email!"><img src="images/icons/gt-email-icon.png" class="resize" alt="email icon" />E-mail</a>
+          </li>
+          <li class="icons-list-item">
+            <a href="tel:000-000-0000" title="Give us a ring!"><img src="images/icons/gt-phone-icon.png" class="resize" alt="phone icon" />Call Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>All rights reserved to the <a href="index.html">Team Green</a>.</p>
+        <a href="#top">Back to top &raquo;</a>
+      </div>
+    </footer>
 </body>
 </html>
