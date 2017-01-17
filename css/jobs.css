@@ -1,0 +1,62 @@
+body#jobs {
+  font-family: 'Bungee', cursive;
+  font-family: 'Rubik', sans-serif;
+  color: #143322;
+  /*/*width: 100%;*/
+  /*background-image: url("../images/jobs-background.jpg");*/
+  /*background-repeat: no-repeat;*/*/
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  background: url(../images/jobs-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section#heading-text {
+  font-family: 'Bungee', cursive;
+  text-align: center;
+  color: black;
+  background-color: #6F9F85;
+  border: 3px solid #23593C;
+  opacity: 0.8;
+  margin: 5em 0;
+}
+
+div#article-parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+article.job-listing {
+  width: 25%;
+  background-color: #6F9F85;
+  border: 3px solid #23593C;
+  opacity: 0.85;
+  padding: 1em;
+  margin: 2em;
+}
+
+h3.job-title {
+  font-family: 'Bungee', cursive;
+}
+
+a.jobs-links:hover {
+  background-color: #143322;
+  color: white;
+}
+
+p.job-description {
+  font-weight: 900;
+  color: #000;
+}
+
+input.apply-button {
+  font-size: 20px;
+  background-color: #23593C;
+  color: #fff;
+  border: 1px solid #23593C;
+  border-radius: 10px;
+}
