@@ -14,24 +14,25 @@ section#heading-text {
   background-color: #6F9F85;
   border: 3px solid #23593C;
   opacity: 0.8;
+  margin: 5em 0;
 }
 
 div#article-parent {
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*justify-content: space-between;*/
+  display: flex;
+  justify-content: space-around;
 }
 
 article.job-listing {
-  width: 30%;
+  width: 25%;
   background-color: #6F9F85;
   border: 3px solid #23593C;
-  opacity: 0.8;
+  opacity: 0.85;
   padding: 1em;
+  margin: 2em;
 }
 
 h3.job-title {
-  font-weight: 900;
+  font-family: 'Bungee', cursive;
 }
 
 a.jobs-links:hover {
@@ -40,7 +41,8 @@ a.jobs-links:hover {
 }
 
 p.job-description {
-
+  font-weight: 900;
+  color: #000;
 }
 
 input.apply-button {
