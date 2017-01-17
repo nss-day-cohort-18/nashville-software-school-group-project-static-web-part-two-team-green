@@ -1,11 +1,36 @@
-html {
-  height: 100%;
-}
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
 .footer-container {
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Bungee', cursive;
+  background-color: #97D9B5;
+  color: #378C5E;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #23593C;
+}
+
+.footer-container a:hover {
+  color: white;
+}
+
+.icon-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-list li {
+  display: inline;
+}
+
+.resize {
+  width: 25px;
+  height: auto;
+  padding-top: 1.2em;
+  margin-right: .2em;
+  margin-bottom: -.3em;
+  margin-top: .2em;
+  margin-left: .3em;
 }
