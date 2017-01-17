@@ -1,0 +1,46 @@
+.body-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Bungee', cursive;
+	text-align: center;
+	margin-top: 1.6em;
+	margin-bottom: -3em;
+	position: relative;
+	z-index: 1;
+	font-size: 5em;
+}
+h2 {
+	font-family: 'Bungee', cursive;
+}
+h3 {
+	font-family: 'Rubik', sans-serif;
+}
+#greenGlass {
+	border-top: .5em solid #fff;
+	max-width:100%;
+	min-width: 100%;
+	max-height: 20em;
+}
+
+.art-2 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	border-top: .5em solid #fff;
+	background-color: #97D9B5;
+	min-height: 9em;
+	color: #000;
+}
+#greenChild {
+	align-self: flex-end;
+	color: #23593C;
+}
+
+#middleChild {
+	align-self: center;
+}
